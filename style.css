@@ -1,0 +1,425 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #000814;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001d3d;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar h1 {
+    color: #ffc300;
+    font-size: 1.8rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #ffc300;
+  }
+  
+  .hero {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .hero-text p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-book {
+    padding: 0.8rem 1.5rem;
+    background-color: #ffc300;
+    color: #001d3d;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-book:hover {
+    background-color: #ffd60a;
+  }
+  
+  footer {
+    background-color: #001d3d;
+    text-align: center;
+    padding: 1rem;
+    color: #ccc;
+  }
+  /* About Us Page Styles */
+
+.about-hero {
+    background: url('https://images.unsplash.com/photo-1563479716047-1e33f4a0e4de') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-text h2 {
+    font-size: 3rem;
+    color: #ffc300;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .about-content {
+    background-color: #f1f1f1;
+    color: #001d3d;
+    padding: 4rem 2rem;
+  }
+  
+  .about-content .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .about-content h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #001d3d;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-content ul li {
+    background: #ffc300;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    color: #001d3d;
+  }
+  /* Fleet & Services Page */
+.fleet {
+    padding: 4rem 10%;
+    background-color: #001d3d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fleet h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffc300;
+}
+
+.fleet-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fleet-card {
+    background-color: #003566;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.fleet-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.fleet-card h3 {
+    margin: 1rem 0 0.5rem;
+    color: #ffd60a;
+}
+
+.fleet-card p {
+    padding: 0 1rem 1.5rem;
+    font-size: 0.95rem;
+}
+
+.services {
+    background-color: #000814;
+    color: #ffffff;
+    padding: 4rem 10%;
+}
+
+.services h2 {
+    font-size: 2.2rem;
+    color: #ffc300;
+    margin-bottom: 1.5rem;
+}
+
+.services ul {
+    list-style: square;
+    padding-left: 1.5rem;
+}
+
+.services li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+/* Tours Page */
+.tours, .workshops {
+    background-color: #001d3d;
+    color: #ffffff;
+    padding: 4rem 10%;
+    text-align: center;
+}
+
+.tours h2, .workshops h2 {
+    font-size: 2.5rem;
+    color: #ffc300;
+    margin-bottom: 2rem;
+}
+
+.tour-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.tour-card {
+    background-color: #003566;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.tour-card:hover {
+    transform: translateY(-5px);
+}
+
+.tour-card h3 {
+    color: #ffd60a;
+    margin-bottom: 1rem;
+}
+
+.tour-card p {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+}
+
+.book-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #ffc300;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #ffdd00;
+}
+/* Gallery Page */
+.gallery {
+    padding: 4rem 10%;
+    background-color: #000814;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffc300;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+/* Gallery Page */
+.gallery {
+    padding: 4rem 10%;
+    background-color: #000814;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffc300;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+/* Contact Page */
+.contact {
+    padding: 4rem 10%;
+    background-color: #000814;
+    color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #ffc300;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 0.75rem;
+    background-color: #ffc300;
+    color: #000814;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e6b800;
+}
+/* Booking Page */
+.booking {
+    padding: 4rem 10%;
+    background-color: #000814;
+    color: #fff;
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffc300;
+}
+
+.booking p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.booking-form button {
+    padding: 0.75rem;
+    background-color: #ffc300;
+    color: #000814;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #e6b800;
+}

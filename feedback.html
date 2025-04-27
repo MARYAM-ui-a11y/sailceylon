@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - SailCeylon</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file here -->
+</head>
+<body>
+    <header>
+        <h1>SailCeylon - Feedback</h1>
+    </header>
+
+    <section>
+        <h2>We value your feedback</h2>
+        <p>Please provide us with your feedback or suggestions below:</p>
+        
+        <form action="submit_feedback.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Feedback:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SailCeylon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
